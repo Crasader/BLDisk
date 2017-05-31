@@ -1,0 +1,29 @@
+1.Toolkit kit = Toolkit.getDefaultToolkit();	//»ñÈ¡Ä¬ÈÏ¹¤¾ß°ü
+2.new Font("ËÎÌå",Font.PLAIN,12)	//ÉèÖÃ×ÖÌå´óĞ¡
+JLabel lab = new JLabel("fileName",Icon,JLabel.HORIZONTAL);
+3.setOpaque()	//ÉèÖÃ×é¼şÍ¸Ã÷
+4.trim£¨£©	//È¥³ı×Ö·û´®×óÓÒÁ½¶ËµÄ¿Õ¸ñ
+5.Í¨¹ıTCP´«ËÍÕËºÅÃÜÂëĞÅÏ¢ ÔÙÍ¨¹ıselct * from user where account = ? and password = ?ÑéÖ¤ÓÃ»§ÊÇ·ñ´æÔÚÈ»ºóÔÙ·µ»ØÆäĞÅÏ¢
+6.FileDialog(Frame parent, String title, int mode) ´´½¨Ò»¸ö¾ßÓĞÖ¸¶¨±êÌâµÄÎÄ¼ş¶Ô»°¿ò´°¿Ú£¬ÓÃÓÚ¼ÓÔØ»ò±£´æÎÄ¼ş¡£modeÑ¡Ôñ±£´æ»òÕß¼ÓÔØÎÄ¼ş
+7.btnDisk.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDiskActionPerformed(evt);
+            }
+        });	Ìí¼ÓÊÂ¼ş¼àÌıÆ÷
+8.ÓÒ¼ü²Ëµ¥
+JPopupMenu pop = new JPopupMenu();
+JMenuItem miDownload = new JMenuItem("ÏÂÔØ");
+pop.add(miDownload);
+mouseClicked(MouseEvent) {	if (list.getSelectedIndex() >= 0 && e.getButton() == MouseEvent.BUTTON3)	pop.show(list,e.getX(),e.getY());	}
+9.txt.requestFocus();	//ÇëÇó½¹µã
+10.ÈÕÆÚ¸ñÊ½»¯
+Data data = new Data();
+SimpleDataFormat sdf = new SimpleDataFormat("hh:mm:ss");
+String time = sdf.format(data);
+11.·şÎñ¶Ë½ÓÊÜµ½ÏûÏ¢ºó²é¿´¶Ô·½ÓÃ»§ÊÇ·ñÔÚÏß£¬Èç¹û²»ÔÚÏß¾Í½«ÏûÏ¢±£´æµ½Êı¾İ¿â£¬µ±Ä¿±êÓÃ»§µÇÂ½Ê±½ÓÊÜÓÃ»§ĞÅÏ¢Ê±Í¬Ê±½ÓÊÜÎ´½ÓÊÜµ½µÄÁÄÌìÏûÏ¢
+12.ÎÄ¼şÁĞ±íºÍºÃÓÑÁĞ±íÌí¼ÓÓÒ¼üµã»÷ÊÂ¼ş£¬ÒÔÈÃÓÒ¼ü²Ëµ¥¹¦ÄÜ¸üÕı³£½»¯
+Data data = new Data();
+SimpleDataFormat sdf = new SimpleDataFormat("hh:mm:ss");
+String time = sdf.format(data);
+11.·şÎñ¶Ë½ÓÊÜµ½ÏûÏ¢ºó²é¿´¶Ô·½ÓÃ»§ÊÇ·ñÔÚÏß£¬Èç¹û²»ÔÚÏß¾Í½«ÏûÏ¢±£´æµ½Êı¾İ¿â£¬µ±Ä¿±êÓÃ»§µÇÂ½Ê±½ÓÊÜÓÃ»§ĞÅÏ¢Ê±Í¬Ê±½ÓÊÜÎ´½ÓÊÜµ½µÄÁÄÌìÏûÏ¢
+12.ÎÄ¼şÁĞ±íºÍºÃÓÑÁĞ±íÌí¼ÓÓÒ¼üµã»÷ÊÂ¼ş£¬ÒÔÈÃÓÒ¼ü²Ëµ¥¹¦ÄÜ¸üÕı³£
